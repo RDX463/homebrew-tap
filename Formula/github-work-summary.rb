@@ -7,6 +7,7 @@ class GithubWorkSummary < Formula
 
   def install
     bin.install "github-work-summary"
+    bin.install_symlink "github-work-summary" => "gws"
   end
 
   test do
