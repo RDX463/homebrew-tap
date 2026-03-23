@@ -1,24 +1,24 @@
 class GithubWorkSummary < Formula
   desc "Summarize your GitHub work from the last 24 hours"
   homepage "https://github.com/RDX463/github-work-summary"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/RDX463/github-work-summary/releases/download/v0.1.6/github-work-summary-darwin-arm64.tar.gz"
-      sha256 "638a9286e8f75a1f7b52391437f60be2adc2352fce296913c4c33093764e1b6d"
+      url "https://github.com/RDX463/github-work-summary/releases/download/v0.1.7/github-work-summary-darwin-arm64.tar.gz"
+      sha256 "4f5bd8fdd4cee3a10869e00a408ff515e39ab50d825a334528cf3bd3d80455b7"
     else
-      url "https://github.com/RDX463/github-work-summary/releases/download/v0.1.6/github-work-summary-darwin-amd64.tar.gz"
-      sha256 "77e5d798c98a99cff2d00b3b96d9c0cce342dcebc4a6e4356f037d887948056b"
+      url "https://github.com/RDX463/github-work-summary/releases/download/v0.1.7/github-work-summary-darwin-amd64.tar.gz"
+      sha256 "b795dcdb09e9da304dd7ac23630370e98497fda456e8c1181247d8239438a859"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/RDX463/github-work-summary/releases/download/v0.1.6/github-work-summary-linux-arm64.tar.gz"
-      sha256 "ed5941a7ac682d613fd5fcaec3536856a29883aaa62f8c6c6e95224bc75a67dd"
+      url "https://github.com/RDX463/github-work-summary/releases/download/v0.1.7/github-work-summary-linux-arm64.tar.gz"
+      sha256 "b5caae03e146cc314722c7a6348cde55ba3b9ad8c714fae13577e2eabab5325a"
     else
-      url "https://github.com/RDX463/github-work-summary/releases/download/v0.1.6/github-work-summary-linux-amd64.tar.gz"
-      sha256 "e4dae0965e7f7787a026a56cd901b2e4477e35994cbf0c90a082db5300e2c750"
+      url "https://github.com/RDX463/github-work-summary/releases/download/v0.1.7/github-work-summary-linux-amd64.tar.gz"
+      sha256 "eac05d07ae55e36d74a70e28196e7c2998fccb636cfdb4e793c0dfed8948242d"
     end
   end
 
