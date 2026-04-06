@@ -1,9 +1,9 @@
 class GithubWorkSummary < Formula
   desc "Summarize your GitHub work from the last 24 hours"
   homepage "https://github.com/RDX463/github-work-summary"
-  url "https://github.com/RDX463/github-work-summary/archive/refs/tags/v2.2.1.tar.gz"
-  sha256 "8bb4a467030fe0235aaed2ef18f76356efe3fd5e78818d2b85abc010e2b8771b"
-  version "2.2.1"
+  url "https://github.com/RDX463/github-work-summary/archive/refs/tags/v2.2.2.tar.gz"
+  sha256 "acc330a3f610e98c1c258ac30ae348ec694b83070e732a600d21ce98fd721f0a"
+  version "2.2.2"
 
   depends_on "go" => :build
 
